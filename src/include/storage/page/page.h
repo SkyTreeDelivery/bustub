@@ -31,7 +31,9 @@ class Page {
 
  public:
   /** Constructor. Zeros out the page data. */
-  Page() { ResetMemory(); }
+  Page() {
+    ResetMemory();
+  }
 
   /** Default destructor. */
   ~Page() = default;
